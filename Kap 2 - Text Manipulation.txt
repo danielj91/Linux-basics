@@ -1,0 +1,8 @@
+100  cd usr/share/metasploit-framework/data/wordlists
+101  ls
+102  cat password.lst
+103  more password.lst
+104  less password.lst
+105  nl password.lst
+106  tail -20 password.lst
+107  cat password.lst | grep 123

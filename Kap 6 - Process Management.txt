@@ -1,0 +1,17 @@
+745  ps aux
+# first - /sbin/init splash
+# last - ps aux
+746  top
+# Top used resources
+# - Xorg
+# - qterminal
+747  kill -1 1528
+748  top
+749  renice 19 19513
+750  top
+751  nano myscanning.sh
+752  ll
+753  chmod +x myscanning.sh
+754  ll
+755  at 16:47
+     at >/home/kali/myscanning

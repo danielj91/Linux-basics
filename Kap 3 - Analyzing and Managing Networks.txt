@@ -1,0 +1,21 @@
+112  ifconfig
+113  ifconfig eth0 192.168.1.1
+114  sudo su
+
+# Super user
+8  ifconfig eth0 192.168.1.1
+9  ifconfig
+10  iwconfig
+11  dhclient eth0
+12  ifconfig
+
+115  dig twitch.tv ns
+116  dig twitch.tv mx
+117  echo "nameserver 8.8.8.8"> /etc/resolv.conf
+118  sudo echo "nameserver 8.8.8.8"> /etc/resolv.conf
+119  sudo su
+
+# Super user
+13  echo "nameserver 8.8.8.8"> /etc/resolv.conf
+14  /
+15  cat /etc/resolv.conf

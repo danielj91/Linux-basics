@@ -1,0 +1,26 @@
+716  cd testmappe
+717  touch securefile
+718  ls
+719  ll
+720  chmod 000 securefile
+721  ll
+722  ..
+723  cd testmappe
+724  ll
+725  chmod +x securefile
+726  ll
+727  chmod 777 securefile
+728  ll
+729  touch unownedfile
+730  chmod 000 unownedfile
+731  ll
+732  chown kali unownedfile
+733  ll
+734  chown root unownedfile
+735  sudo chown root unownedfile
+736  ll
+737  sudo chgrp root unownedfile
+738  ll
+739  sudo chown kali unownedfile
+740  ll
+741  find / -user root -perm -2644

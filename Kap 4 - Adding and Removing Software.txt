@@ -1,0 +1,13 @@
+122  apt search snort
+123  apt install snort
+124  sudo apt install snort
+125  sudo apt install fwsnort
+126  apt remove fwsnort
+127  sudo apt remove fwsnort
+128  sudo apt update
+129  sudo apt upgrade
+130  ~
+131  pwd
+132  git clone https://github.com/balle/bluediving.git
+133  cd bluediving
+134  ls -l

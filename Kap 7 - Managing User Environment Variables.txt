@@ -1,0 +1,13 @@
+196  set | more
+197  echo $HOST
+198  PS1='C:%d '
+199  PS1='C:%d> '
+200  MYNEWVARIABLE="Daniel"
+201  echo $MYNEWVARIABLE
+202  export MYNEWVARIABLE
+203  echo $PATH
+204  PATH+=:/home/kali
+205  echo $PATH
+206  pwd
+207  PS1="World's Greatest Hacker:"
+208  set
