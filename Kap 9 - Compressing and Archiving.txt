@@ -12,5 +12,5 @@
 801  ll
 
 # .tar = 10240 bytes -> .tar.gz = 412 bytes
-# .tar = 10240 bytes -> .tar.gz = 456 bytes
-# .tar = 10240 bytes -> .tar.Z = 602 bytes
+# .tar = 10240 bytes -> .tar.bz2 = 456 bytes
+# .tar = 10240 bytes -> .tar.Z = 693 bytes

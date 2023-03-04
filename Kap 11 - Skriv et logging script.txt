@@ -1,0 +1,50 @@
+408  touch logger.sh
+409  ll
+410  vim logger.sh
+411  cat logger.sh
+414  journalctl -f
+416  pwd
+417  fdisk -l
+418  sudo fdisk -l
+419  df -h
+420  locate rsyslog
+421  sudo locate rsyslog
+422  locate rsyslog.conf
+423  shred --help
+424  cd /var/log
+425  ll
+426  tail -f faillog
+427  ksystemlog
+428  free -m
+429  logger First log message
+430  ls
+431  logger hej
+432  ksystemlog
+433  ls -sal
+434  tail lastlog
+435  cd journal
+436  ls
+437  tail 8d3c7dee173a4ae0ae09bac8115f238b
+438  cd 8d3c7dee173a4ae0ae09bac8115f238b
+439  ls
+440  ..
+441  cat README
+442  journalctl
+443  id -u kali
+444  journalctl _UID=1000 --since today
+445  free -m
+446  cd ~/Desktop
+447  free -m | logger
+448  journalctl _UID=1000 --since today
+449  free -m | grep swap
+450  free -m | grep "swap"
+451  free -m | grep 'swap'
+452  free -m | grep 'swap:'
+453  free -m | grep swap | cat
+454  free -m | grep Swap
+455  free -m | grep Swap | logger
+456  journalctl _UID=1000 --since today
+457  free -m | grep Swap | logger
+458  leafpad logger.sh
+837  crontab -e              #   * * * * * /home/kali/Desktop/logger.sh
+838  journalctl -n 20 -f
