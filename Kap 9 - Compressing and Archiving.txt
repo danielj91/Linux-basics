@@ -1,0 +1,16 @@
+782  tar -cvf L4H.tar L1nvx4Hack3rz1.sh L1nvx4Hack3rz2.sh L1nvx4Hack3rz3.sh
+783  ll
+784  gzip L4H.*
+785  ll
+793  bzip2 L4H.*
+794  ll
+795  bunzip2 L4H.*
+796  ll
+798  compress L4H.*
+799  ll
+800  uncompress L4H.*
+801  ll
+
+# .tar = 10240 bytes -> .tar.gz = 412 bytes
+# .tar = 10240 bytes -> .tar.gz = 456 bytes
+# .tar = 10240 bytes -> .tar.Z = 602 bytes
