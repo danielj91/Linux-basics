@@ -1,0 +1,4 @@
+856  fdisk -l
+857  lsblk
+858  sudo fdisk -l
+859  df
