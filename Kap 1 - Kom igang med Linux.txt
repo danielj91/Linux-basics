@@ -1,0 +1,34 @@
+65  cd /
+66  ls
+67  cd bin
+68  ls
+69  pwd
+70  ..
+71  cd boot
+72  pwd
+73  cd ..
+74  cd dev
+75  pwd
+76  ls
+77  ..
+78  whoami
+79  locate wordlist
+80  cd ~
+81  ls
+82  cat > hackingskills
+83  cat hackingskills
+84  cat >> hackingskills
+85  cat hackingskills
+86  mkdir hackerdirectory
+87  cd hackerdirectory
+88  touch hackedfile
+89  ls -l
+90  cp hackedfile /secretfile
+91  sudo cp hackedfile /secretfile
+92  cd /
+93  ls
+94  mv secretfile /root/secretfile
+95  sudo mv secretfile /root/secretfile
+96  ls
+97  cd /root
+98  sudo cd /root
